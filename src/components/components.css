@@ -1,0 +1,128 @@
+
+/**********header*********/
+.head_wrap{
+    width: 100%;
+    height: 75px;
+    margin: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.head_logo{
+    width: 33.3333%;
+    height: 75px;
+}
+.head_logo img{
+    width: 75px;
+    height: 100%;
+}
+.blank{
+    width: 33.3333%;
+}
+.blank button{
+    width: 80px;
+    height: 30px;
+    background-color: #fff;
+    border: 1px solid #b1adab;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.cart_site{
+    width: 33.3333%;
+    position: relative;
+}
+.cart_site img{
+    width: 40px;
+
+}
+.cart_cnt{
+    width: 20px;
+    height: 20px;
+    background-color: #f489a0;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    display: inline-block;
+    color: #fff;
+    position: absolute;
+    left: 49%;
+    transform: translateX(-50%);
+    bottom: -30%;
+    font-size: 14px;
+}
+
+
+
+/**********footer************/
+
+.foot_wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f8f7;
+    height: 70px;
+}
+.foot_wrap img{
+    width: 60px;
+    height: auto;
+    margin-right: 30px;
+}
+.foot_wrap img:nth-child(3){
+    width: 80px;
+}
+.foot_wrap img:nth-child(5){
+    width: 30px;
+}
+.foot_wrap img:nth-child(6){
+    width: 30px;
+}
+.foot_wrap img:last-child{
+    margin-right: 0;
+}
+
+.foot_logo{
+    text-align: center;
+    background-color: #f9f8f7;
+    padding: 20px 0 10px 0;
+}
+.foot_logo p{
+    margin-top: 10px;
+    font-size: 12px;
+    color: #b1adab;
+}
+
+
+
+/**********Radio Btn*********/
+input:nth-child(1):checked ~ label:nth-child(1){
+    background-color: black;
+}
+.input_wrap{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+input{
+    display: none;
+}
+label{
+    margin-right: 20px;
+    width: 200px;
+    height: 50px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    line-height: 50px;
+    border-radius: 20px;
+    transition: .3s;
+}
+label:nth-child(4){
+    margin-right: 0;
+}
+.opt_price{
+    margin-top: 30px;
+    font-size: 24px;
+}
+
+
+
