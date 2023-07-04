@@ -234,6 +234,12 @@ a{
     font-size: 18px;
     cursor: pointer;
     color: #777;
+    transition: .5s;
+}
+.cartBtn:hover{
+    background-color: #ffa0c5;
+    border: 1px solid #ffa0c5;
+    color: #fff;
 }
 
 
