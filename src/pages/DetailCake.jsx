@@ -16,7 +16,7 @@ export default function DetailCake(props2) {
 
         <div className="detail_wrap">
           <div className="top_img">
-            <img src={process.env.PUBLIC_URL + '../img/icon_title_top.png' } alt="img" />
+            <img src={process.env.PUBLIC_URL + '/img/icon_title_top.png' } alt="img" />
           </div>
 
           <div className="detail_left">
