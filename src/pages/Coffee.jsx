@@ -27,7 +27,7 @@ export default function Coffee() {
                         duration: 0.3,
                         ease: easeInOut
                     }}>
-                        <Link to={`/detailcoffee/${index}`}>
+                        <Link to={`/coffee/detailcoffee/${index}`}>
                         
                           <div className="item_img_wrap">
                             <img src={coffee.image} alt='img'/>

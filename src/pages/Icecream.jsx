@@ -39,7 +39,7 @@ export default function Icecream() {
               return(
               
                 <motion.div className="item_box" key={index} variants={list} initial="hidden" animate="visible">
-                    <Link to={`/detail/${index}`}>
+                    <Link to={`/icecream//detail/${index}`}>
                     
                       <div className="item_img_wrap">
                         <motion.img src={ice.image} alt='img' variants={item}/>

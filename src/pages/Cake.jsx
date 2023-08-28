@@ -29,7 +29,7 @@ export default function Cake() {
                     duration: 0.3,
                     ease: easeInOut
                 }}>
-                      <Link to={`/detailcake/${index}`}>
+                      <Link to={`/cake/detailcake/${index}`}>
                       
                         <div className="item_img_wrap">
                           <img src={cake.image} alt='img'/>

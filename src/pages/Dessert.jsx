@@ -39,7 +39,7 @@ export default function Dessert() {
                   return(
                   
                     <motion.div className="item_box" key={index} variants={list} initial="hidden" animate="visible">
-                        <Link to={`/detaildessert/${index}`}>
+                        <Link to={`/dessert/detaildessert/${index}`}>
                         
                           <div className="item_img_wrap">
                             <motion.img src={dessert.image} alt='img' variants={item} />

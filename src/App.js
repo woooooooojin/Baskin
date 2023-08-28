@@ -93,11 +93,11 @@ function App() {
         <Route path='drink/*' element={<Drink />}></Route>
         <Route path='cart' element={<Cart />}></Route>
         
-        <Route path='detail/:id' element={<Detail ices={ices}/>}></Route>
-        <Route path='detailcake/:id' element={<DetailCake cakes={cakes}/>}></Route>
-        <Route path='detaildrink/:id' element={<DetailDrink drinks={drinks}/>}></Route>
-        <Route path='detailcoffee/:id' element={<DetailCoffee coffees={coffees}/>}></Route>
-        <Route path='detaildessert/:id' element={<DetailDessert desserts={desserts}/>}></Route>
+        <Route path='/icecream/detail/:id' element={<Detail ices={ices}/>}></Route>
+        <Route path='/cake/detailcake/:id' element={<DetailCake cakes={cakes}/>}></Route>
+        <Route path='/drink/detaildrink/:id' element={<DetailDrink drinks={drinks}/>}></Route>
+        <Route path='/coffee/detailcoffee/:id' element={<DetailCoffee coffees={coffees}/>}></Route>
+        <Route path='/dessert/detaildessert/:id' element={<DetailDessert desserts={desserts}/>}></Route>
         
 
       </Routes>

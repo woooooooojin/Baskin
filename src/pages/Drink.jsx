@@ -43,7 +43,7 @@ export default function Drink() {
                   return(
                   
                     <motion.div className="item_box" key={index} variants={list} initial="hidden" animate="visible">
-                        <Link to={`/detaildrink/${index}`}>
+                        <Link to={`/drink/detaildrink/${index}`}>
                         
                           <div className="item_img_wrap">
                             <motion.img src={drink.image} alt='img' variants={item}/>
